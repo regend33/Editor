@@ -1,4 +1,4 @@
-export default function PostList({ $target, initialState, onPostClick }) {
+export default function PostList({ $target, initialState }) {
   const $postList = document.createElement("div");
   $target.appendChild($postList);
 
